@@ -7,5 +7,5 @@
  */
 void reset_to_98(int *n)
 {
-	int *ptr;
+	*n = 98;
 }
