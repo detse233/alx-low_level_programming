@@ -9,17 +9,18 @@ int _isalpha(int c)
 {
 	char low;
 	char upp;
-	int letter;
+	
+	c = 0;
 
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		for (upp = 'A'; upp <= 'Z'; upp++)
 		{
-			if (low == c || upp == 'C')
+			if (low == 'c' || upp == 'C')
 			{
-				letter = 1;
+				c = 1;
 			}
 		}
 	}
-	return (letter);
+	return (c);
 }
