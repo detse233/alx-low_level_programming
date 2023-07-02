@@ -19,4 +19,5 @@ int main(void)
 		t++;
 	}
 	putchar('\n');
+	return (0);
 }
