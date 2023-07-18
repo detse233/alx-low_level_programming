@@ -8,6 +8,6 @@
  *
  * Desc: add x and y
  */
-#define SUM(x,y) (x + y)
+#define SUM( y) (x + y)
 
 #endif
